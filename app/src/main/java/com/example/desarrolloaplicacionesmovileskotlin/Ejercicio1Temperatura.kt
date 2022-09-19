@@ -3,7 +3,7 @@ package com.example.desarrolloaplicacionesmovileskotlin
 import java.util.Scanner
 
 fun main(){
-    val sc = Scanner(System.`in`)
+    Scanner(System.`in`)
     println("¿Cuál es la temperatura?")
     val temp = readLine()!!.toFloat()
     comprobarTemp(temp)
